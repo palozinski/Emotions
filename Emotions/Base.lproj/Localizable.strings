@@ -1,0 +1,15 @@
+"try_again" = "Try Again!";
+"anger" = "Anger";
+"surprise" = "Surprise";
+"fear" = "Fear";
+"disgust" = "Disgust";
+"happiness" = "Happiness";
+"neutral" = "Neutral";
+"sadness" = "Sadness";
+"choose_photo_source" = "Choose source of your photo";
+"take_photo" = "Take Photo";
+"camera_roll" = "Camera Roll";
+"start" = "Start";
+"error_title" = "Ups ...";
+"error_message" = "I had problem with face detection for uploaded photo.";
+"ok" = "Try again!";

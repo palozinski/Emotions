@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6F0914100150852FF2636FB /* Pods_Emotions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDA778B9F1B8DCA058526243 /* Pods_Emotions.framework */; };
+		DC8D978E2094D56800D624E0 /* BorderedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D978D2094D56800D624E0 /* BorderedImageView.swift */; };
+		DC8D97902094E06C00D624E0 /* PhotoPickingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D978F2094E06C00D624E0 /* PhotoPickingViewController.swift */; };
+		DC8D97952094E5BC00D624E0 /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97942094E5BC00D624E0 /* HTTPHeader.swift */; };
+		DC8D97982094E71C00D624E0 /* EmotionsRecognitionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97972094E71C00D624E0 /* EmotionsRecognitionService.swift */; };
+		DC8D979A2094EAD300D624E0 /* UIImage+Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97992094EAD300D624E0 /* UIImage+Data.swift */; };
+		DC8D979C2094ED5B00D624E0 /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D979B2094ED5B00D624E0 /* ServiceAssembly.swift */; };
+		DC8D97A52095DA5E00D624E0 /* ResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97A42095DA5E00D624E0 /* ResultTableViewCell.swift */; };
+		DC8D97A72095DA7500D624E0 /* ResultListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97A62095DA7500D624E0 /* ResultListViewController.swift */; };
+		DC8D97AA2095E2B300D624E0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97A92095E2B300D624E0 /* File.swift */; };
+		DC8D97AD2096014400D624E0 /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97AC2096014400D624E0 /* Encodable+Dictionary.swift */; };
+		DC8D97B0209602D300D624E0 /* ResultListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97AF209602D300D624E0 /* ResultListDataSource.swift */; };
+		DC8D97B92096106400D624E0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC8D97BB2096106400D624E0 /* Localizable.strings */; };
+		DC8D97BF209610A700D624E0 /* String+Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97BE209610A700D624E0 /* String+Localized.swift */; };
+		DC8D97C1209612C500D624E0 /* LocalizedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97C0209612C500D624E0 /* LocalizedLabel.swift */; };
+		DC8D97C32096134400D624E0 /* LocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97C22096134400D624E0 /* LocalizedButton.swift */; };
+		DC8D97C52096153A00D624E0 /* NumberFormatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97C42096153A00D624E0 /* NumberFormatters.swift */; };
+		DC8D97C7209616A700D624E0 /* RecognitionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97C6209616A700D624E0 /* RecognitionResult.swift */; };
+		DC8D97F720962F9500D624E0 /* FaceRecognitionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC8D97F620962F9500D624E0 /* FaceRecognitionType.swift */; };
+		DCA623032094717900C3A343 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623022094717900C3A343 /* AppDelegate.swift */; };
+		DCA623052094717900C3A343 /* RecognizerContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623042094717900C3A343 /* RecognizerContainerViewController.swift */; };
+		DCA623082094717900C3A343 /* Rezognizer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA623062094717900C3A343 /* Rezognizer.storyboard */; };
+		DCA6230A2094717B00C3A343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA623092094717B00C3A343 /* Assets.xcassets */; };
+		DCA6230D2094717B00C3A343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA6230B2094717B00C3A343 /* LaunchScreen.storyboard */; };
+		DCA6232420947F4300C3A343 /* InfoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6232320947F4300C3A343 /* InfoConfig.swift */; };
+		DCA62327209481C700C3A343 /* AssemblyCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA62326209481C700C3A343 /* AssemblyCenter.swift */; };
+		DCA623292094837100C3A343 /* AppDelegateAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623282094837100C3A343 /* AppDelegateAssembly.swift */; };
+		DCA6232C2094A17800C3A343 /* EmotionRecognizerAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6232B2094A17800C3A343 /* EmotionRecognizerAssembly.swift */; };
+		DCA6232E2094A18200C3A343 /* EmotionsRecognizerContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6232D2094A18200C3A343 /* EmotionsRecognizerContainerViewModel.swift */; };
+		DCA623312094A70000C3A343 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623302094A70000C3A343 /* ApiService.swift */; };
+		DCA623332094A71E00C3A343 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623322094A71E00C3A343 /* Result.swift */; };
+		DCA623362094A75000C3A343 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623352094A75000C3A343 /* Request.swift */; };
+		DCA6233A2094A79600C3A343 /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623392094A79600C3A343 /* ServiceProtocol.swift */; };
+		DCA6233C2094A7DB00C3A343 /* ServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6233B2094A7DB00C3A343 /* ServiceError.swift */; };
+		DCA6233E2094AA4100C3A343 /* EmotionRecognitionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA6233D2094AA4100C3A343 /* EmotionRecognitionRequest.swift */; };
+		DCA623412094D1E400C3A343 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA623402094D1E400C3A343 /* GradientView.swift */; };
+		DCC187702097645900ACDC1B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DCC187722097645900ACDC1B /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCA623142094717B00C3A343 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCA622F72094717900C3A343 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCA622FE2094717900C3A343;
+			remoteInfo = Emotions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41B0A784C60EF7A49554B4CF /* Pods-Emotions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emotions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Emotions/Pods-Emotions.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA778B9F1B8DCA058526243 /* Pods_Emotions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Emotions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D213EB2FBA995BB971E6C163 /* Pods-Emotions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Emotions.release.xcconfig"; path = "Pods/Target Support Files/Pods-Emotions/Pods-Emotions.release.xcconfig"; sourceTree = "<group>"; };
+		DC8D978D2094D56800D624E0 /* BorderedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedImageView.swift; sourceTree = "<group>"; };
+		DC8D978F2094E06C00D624E0 /* PhotoPickingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickingViewController.swift; sourceTree = "<group>"; };
+		DC8D97942094E5BC00D624E0 /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
+		DC8D97972094E71C00D624E0 /* EmotionsRecognitionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsRecognitionService.swift; sourceTree = "<group>"; };
+		DC8D97992094EAD300D624E0 /* UIImage+Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Data.swift"; sourceTree = "<group>"; };
+		DC8D979B2094ED5B00D624E0 /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		DC8D97A42095DA5E00D624E0 /* ResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTableViewCell.swift; sourceTree = "<group>"; };
+		DC8D97A62095DA7500D624E0 /* ResultListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListViewController.swift; sourceTree = "<group>"; };
+		DC8D97A92095E2B300D624E0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		DC8D97AC2096014400D624E0 /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		DC8D97AF209602D300D624E0 /* ResultListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultListDataSource.swift; sourceTree = "<group>"; };
+		DC8D97B72096105700D624E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Rezognizer.strings; sourceTree = "<group>"; };
+		DC8D97B82096105700D624E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DC8D97BC2096106700D624E0 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC8D97BD2096106F00D624E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DC8D97BE209610A700D624E0 /* String+Localized.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Localized.swift"; sourceTree = "<group>"; };
+		DC8D97C0209612C500D624E0 /* LocalizedLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedLabel.swift; sourceTree = "<group>"; };
+		DC8D97C22096134400D624E0 /* LocalizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
+		DC8D97C42096153A00D624E0 /* NumberFormatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatters.swift; sourceTree = "<group>"; };
+		DC8D97C6209616A700D624E0 /* RecognitionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognitionResult.swift; sourceTree = "<group>"; };
+		DC8D97F620962F9500D624E0 /* FaceRecognitionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRecognitionType.swift; sourceTree = "<group>"; };
+		DCA622FF2094717900C3A343 /* Emotions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emotions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA623022094717900C3A343 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCA623042094717900C3A343 /* RecognizerContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecognizerContainerViewController.swift; sourceTree = "<group>"; };
+		DCA623072094717900C3A343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Rezognizer.storyboard; sourceTree = "<group>"; };
+		DCA623092094717B00C3A343 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA6230C2094717B00C3A343 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA6230E2094717B00C3A343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA623132094717B00C3A343 /* EmotionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmotionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA6232320947F4300C3A343 /* InfoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoConfig.swift; sourceTree = "<group>"; };
+		DCA62326209481C700C3A343 /* AssemblyCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyCenter.swift; sourceTree = "<group>"; };
+		DCA623282094837100C3A343 /* AppDelegateAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateAssembly.swift; sourceTree = "<group>"; };
+		DCA6232B2094A17800C3A343 /* EmotionRecognizerAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecognizerAssembly.swift; sourceTree = "<group>"; };
+		DCA6232D2094A18200C3A343 /* EmotionsRecognizerContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionsRecognizerContainerViewModel.swift; sourceTree = "<group>"; };
+		DCA623302094A70000C3A343 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DCA623322094A71E00C3A343 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		DCA623352094A75000C3A343 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DCA623392094A79600C3A343 /* ServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		DCA6233B2094A7DB00C3A343 /* ServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceError.swift; sourceTree = "<group>"; };
+		DCA6233D2094AA4100C3A343 /* EmotionRecognitionRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionRecognitionRequest.swift; sourceTree = "<group>"; };
+		DCA623402094D1E400C3A343 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		DCC187732097645B00ACDC1B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DCC187742097646400ACDC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE30BEAE84CDA540A797D8C7 /* Pods_EmotionsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA622FC2094717900C3A343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F0914100150852FF2636FB /* Pods_Emotions.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA623102094717B00C3A343 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		292006B046A59D7F9790878D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B0A784C60EF7A49554B4CF /* Pods-Emotions.debug.xcconfig */,
+				D213EB2FBA995BB971E6C163 /* Pods-Emotions.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		91DA22E86796059BAD40D374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDA778B9F1B8DCA058526243 /* Pods_Emotions.framework */,
+				EE30BEAE84CDA540A797D8C7 /* Pods_EmotionsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC8D97932094E2E600D624E0 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				DCA623062094717900C3A343 /* Rezognizer.storyboard */,
+				DCA6230B2094717B00C3A343 /* LaunchScreen.storyboard */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		DC8D97962094E70800D624E0 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97972094E71C00D624E0 /* EmotionsRecognitionService.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		DC8D97A82095E2A900D624E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97A92095E2B300D624E0 /* File.swift */,
+				DC8D97C6209616A700D624E0 /* RecognitionResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC8D97AB2096013000D624E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97992094EAD300D624E0 /* UIImage+Data.swift */,
+				DC8D97AC2096014400D624E0 /* Encodable+Dictionary.swift */,
+				DC8D97BE209610A700D624E0 /* String+Localized.swift */,
+				DC8D97C42096153A00D624E0 /* NumberFormatters.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC8D97B120960B9900D624E0 /* RecognizerContainer */ = {
+			isa = PBXGroup;
+			children = (
+				DCA623042094717900C3A343 /* RecognizerContainerViewController.swift */,
+				DCA6232D2094A18200C3A343 /* EmotionsRecognizerContainerViewModel.swift */,
+			);
+			path = RecognizerContainer;
+			sourceTree = "<group>";
+		};
+		DC8D97B320960BE300D624E0 /* ResultList */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97A42095DA5E00D624E0 /* ResultTableViewCell.swift */,
+				DC8D97AF209602D300D624E0 /* ResultListDataSource.swift */,
+				DC8D97A62095DA7500D624E0 /* ResultListViewController.swift */,
+			);
+			path = ResultList;
+			sourceTree = "<group>";
+		};
+		DC8D97B420960C0000D624E0 /* PhotoPicking */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D978F2094E06C00D624E0 /* PhotoPickingViewController.swift */,
+			);
+			path = PhotoPicking;
+			sourceTree = "<group>";
+		};
+		DCA622F62094717900C3A343 = {
+			isa = PBXGroup;
+			children = (
+				DCA623012094717900C3A343 /* Emotions */,
+				DCA623002094717900C3A343 /* Products */,
+				292006B046A59D7F9790878D /* Pods */,
+				91DA22E86796059BAD40D374 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA623002094717900C3A343 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA622FF2094717900C3A343 /* Emotions.app */,
+				DCA623132094717B00C3A343 /* EmotionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA623012094717900C3A343 /* Emotions */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97B420960C0000D624E0 /* PhotoPicking */,
+				DC8D97B320960BE300D624E0 /* ResultList */,
+				DC8D97B120960B9900D624E0 /* RecognizerContainer */,
+				DC8D97AB2096013000D624E0 /* Extensions */,
+				DC8D97A82095E2A900D624E0 /* Models */,
+				DC8D97932094E2E600D624E0 /* Interfaces */,
+				DCA6233F2094D1D900C3A343 /* Views */,
+				DCA6232F2094A6F100C3A343 /* Service */,
+				DCA62325209481B900C3A343 /* Assemblies */,
+				DCA6232220947F3800C3A343 /* Configurations */,
+				DCA623022094717900C3A343 /* AppDelegate.swift */,
+				DCA623092094717B00C3A343 /* Assets.xcassets */,
+				DCA6230E2094717B00C3A343 /* Info.plist */,
+				DC8D97BB2096106400D624E0 /* Localizable.strings */,
+				DCC187722097645900ACDC1B /* InfoPlist.strings */,
+			);
+			path = Emotions;
+			sourceTree = "<group>";
+		};
+		DCA6232220947F3800C3A343 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DCA6232320947F4300C3A343 /* InfoConfig.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		DCA62325209481B900C3A343 /* Assemblies */ = {
+			isa = PBXGroup;
+			children = (
+				DCA62326209481C700C3A343 /* AssemblyCenter.swift */,
+				DCA623282094837100C3A343 /* AppDelegateAssembly.swift */,
+				DCA6232B2094A17800C3A343 /* EmotionRecognizerAssembly.swift */,
+				DC8D979B2094ED5B00D624E0 /* ServiceAssembly.swift */,
+			);
+			path = Assemblies;
+			sourceTree = "<group>";
+		};
+		DCA6232F2094A6F100C3A343 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DC8D97962094E70800D624E0 /* Api */,
+				DCA623342094A74400C3A343 /* Requests */,
+				DCA623302094A70000C3A343 /* ApiService.swift */,
+				DCA623322094A71E00C3A343 /* Result.swift */,
+				DCA623392094A79600C3A343 /* ServiceProtocol.swift */,
+				DCA6233B2094A7DB00C3A343 /* ServiceError.swift */,
+				DC8D97942094E5BC00D624E0 /* HTTPHeader.swift */,
+				DC8D97F620962F9500D624E0 /* FaceRecognitionType.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DCA623342094A74400C3A343 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				DCA623352094A75000C3A343 /* Request.swift */,
+				DCA6233D2094AA4100C3A343 /* EmotionRecognitionRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		DCA6233F2094D1D900C3A343 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCA623402094D1E400C3A343 /* GradientView.swift */,
+				DC8D978D2094D56800D624E0 /* BorderedImageView.swift */,
+				DC8D97C22096134400D624E0 /* LocalizedButton.swift */,
+				DC8D97C0209612C500D624E0 /* LocalizedLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA622FE2094717900C3A343 /* Emotions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA6231C2094717B00C3A343 /* Build configuration list for PBXNativeTarget "Emotions" */;
+			buildPhases = (
+				F095464E502F2CEBA273AD0C /* [CP] Check Pods Manifest.lock */,
+				DCA622FB2094717900C3A343 /* Sources */,
+				DCA622FC2094717900C3A343 /* Frameworks */,
+				DCA622FD2094717900C3A343 /* Resources */,
+				B84DB52172B29D0AB67054D5 /* [CP] Embed Pods Frameworks */,
+				DCA6232A2094840500C3A343 /* Swift Lint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Emotions;
+			productName = Emotions;
+			productReference = DCA622FF2094717900C3A343 /* Emotions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCA623122094717B00C3A343 /* EmotionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA6231F2094717B00C3A343 /* Build configuration list for PBXNativeTarget "EmotionsTests" */;
+			buildPhases = (
+				DCA6230F2094717B00C3A343 /* Sources */,
+				DCA623102094717B00C3A343 /* Frameworks */,
+				DCA623112094717B00C3A343 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCA623152094717B00C3A343 /* PBXTargetDependency */,
+			);
+			name = EmotionsTests;
+			productName = EmotionsTests;
+			productReference = DCA623132094717B00C3A343 /* EmotionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA622F72094717900C3A343 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Binkie;
+				TargetAttributes = {
+					DCA622FE2094717900C3A343 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					DCA623122094717B00C3A343 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = DCA622FE2094717900C3A343;
+					};
+				};
+			};
+			buildConfigurationList = DCA622FA2094717900C3A343 /* Build configuration list for PBXProject "Emotions" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				pl,
+			);
+			mainGroup = DCA622F62094717900C3A343;
+			productRefGroup = DCA623002094717900C3A343 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA622FE2094717900C3A343 /* Emotions */,
+				DCA623122094717B00C3A343 /* EmotionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA622FD2094717900C3A343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA6230D2094717B00C3A343 /* LaunchScreen.storyboard in Resources */,
+				DC8D97B92096106400D624E0 /* Localizable.strings in Resources */,
+				DCA6230A2094717B00C3A343 /* Assets.xcassets in Resources */,
+				DCA623082094717900C3A343 /* Rezognizer.storyboard in Resources */,
+				DCC187702097645900ACDC1B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA623112094717B00C3A343 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B84DB52172B29D0AB67054D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Emotions/Pods-Emotions-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectAutoregistration/SwinjectAutoregistration.framework",
+				"${BUILT_PRODUCTS_DIR}/SwinjectStoryboard/SwinjectStoryboard.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectAutoregistration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwinjectStoryboard.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Emotions/Pods-Emotions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA6232A2094840500C3A343 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"";
+		};
+		F095464E502F2CEBA273AD0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Emotions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA622FB2094717900C3A343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8D97952094E5BC00D624E0 /* HTTPHeader.swift in Sources */,
+				DC8D978E2094D56800D624E0 /* BorderedImageView.swift in Sources */,
+				DCA623332094A71E00C3A343 /* Result.swift in Sources */,
+				DC8D979C2094ED5B00D624E0 /* ServiceAssembly.swift in Sources */,
+				DC8D97BF209610A700D624E0 /* String+Localized.swift in Sources */,
+				DC8D979A2094EAD300D624E0 /* UIImage+Data.swift in Sources */,
+				DCA62327209481C700C3A343 /* AssemblyCenter.swift in Sources */,
+				DC8D97C32096134400D624E0 /* LocalizedButton.swift in Sources */,
+				DC8D97AA2095E2B300D624E0 /* File.swift in Sources */,
+				DCA623412094D1E400C3A343 /* GradientView.swift in Sources */,
+				DC8D97C7209616A700D624E0 /* RecognitionResult.swift in Sources */,
+				DCA623052094717900C3A343 /* RecognizerContainerViewController.swift in Sources */,
+				DC8D97A72095DA7500D624E0 /* ResultListViewController.swift in Sources */,
+				DC8D97F720962F9500D624E0 /* FaceRecognitionType.swift in Sources */,
+				DCA6233A2094A79600C3A343 /* ServiceProtocol.swift in Sources */,
+				DCA6232E2094A18200C3A343 /* EmotionsRecognizerContainerViewModel.swift in Sources */,
+				DC8D97A52095DA5E00D624E0 /* ResultTableViewCell.swift in Sources */,
+				DC8D97902094E06C00D624E0 /* PhotoPickingViewController.swift in Sources */,
+				DC8D97C1209612C500D624E0 /* LocalizedLabel.swift in Sources */,
+				DCA6233E2094AA4100C3A343 /* EmotionRecognitionRequest.swift in Sources */,
+				DCA6232C2094A17800C3A343 /* EmotionRecognizerAssembly.swift in Sources */,
+				DCA623032094717900C3A343 /* AppDelegate.swift in Sources */,
+				DCA6233C2094A7DB00C3A343 /* ServiceError.swift in Sources */,
+				DCA623292094837100C3A343 /* AppDelegateAssembly.swift in Sources */,
+				DC8D97AD2096014400D624E0 /* Encodable+Dictionary.swift in Sources */,
+				DC8D97982094E71C00D624E0 /* EmotionsRecognitionService.swift in Sources */,
+				DC8D97C52096153A00D624E0 /* NumberFormatters.swift in Sources */,
+				DCA623362094A75000C3A343 /* Request.swift in Sources */,
+				DCA623312094A70000C3A343 /* ApiService.swift in Sources */,
+				DC8D97B0209602D300D624E0 /* ResultListDataSource.swift in Sources */,
+				DCA6232420947F4300C3A343 /* InfoConfig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCA6230F2094717B00C3A343 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCA623152094717B00C3A343 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCA622FE2094717900C3A343 /* Emotions */;
+			targetProxy = DCA623142094717B00C3A343 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC8D97BB2096106400D624E0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC8D97BC2096106700D624E0 /* pl */,
+				DC8D97BD2096106F00D624E0 /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DCA623062094717900C3A343 /* Rezognizer.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA623072094717900C3A343 /* Base */,
+				DC8D97B72096105700D624E0 /* pl */,
+			);
+			name = Rezognizer.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA6230B2094717B00C3A343 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA6230C2094717B00C3A343 /* Base */,
+				DC8D97B82096105700D624E0 /* pl */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DCC187722097645900ACDC1B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCC187732097645B00ACDC1B /* pl */,
+				DCC187742097646400ACDC1B /* Base */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA6231A2094717B00C3A343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCA6231B2094717B00C3A343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA6231D2094717B00C3A343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B0A784C60EF7A49554B4CF /* Pods-Emotions.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8L5Q77NYT;
+				ENDPOINT_BASE = "https://api-us.faceplusplus.com/facepp/v3/";
+				FACEPP_API_KEY = _iaQhoD8QCGHTiQfWuxs6Q2sqYAb4bx5;
+				FACEPP_API_SECRET = rS5RL0RaHnY2Gn_BZSPYtFFmknVwt44k;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = store.Binkie.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DCA6231E2094717B00C3A343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D213EB2FBA995BB971E6C163 /* Pods-Emotions.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8L5Q77NYT;
+				ENDPOINT_BASE = "https://api-us.faceplusplus.com/facepp/v3/";
+				FACEPP_API_KEY = _iaQhoD8QCGHTiQfWuxs6Q2sqYAb4bx5;
+				FACEPP_API_SECRET = rS5RL0RaHnY2Gn_BZSPYtFFmknVwt44k;
+				INFOPLIST_FILE = Emotions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = store.Binkie.Emotions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DCA623202094717B00C3A343 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8L5Q77NYT;
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = store.Binkie.EmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+			};
+			name = Debug;
+		};
+		DCA623212094717B00C3A343 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q8L5Q77NYT;
+				INFOPLIST_FILE = EmotionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = store.Binkie.EmotionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Emotions.app/Emotions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA622FA2094717900C3A343 /* Build configuration list for PBXProject "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA6231A2094717B00C3A343 /* Debug */,
+				DCA6231B2094717B00C3A343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA6231C2094717B00C3A343 /* Build configuration list for PBXNativeTarget "Emotions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA6231D2094717B00C3A343 /* Debug */,
+				DCA6231E2094717B00C3A343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA6231F2094717B00C3A343 /* Build configuration list for PBXNativeTarget "EmotionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA623202094717B00C3A343 /* Debug */,
+				DCA623212094717B00C3A343 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA622F72094717900C3A343 /* Project object */;
+}

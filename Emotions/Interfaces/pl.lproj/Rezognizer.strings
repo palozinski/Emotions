@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6Rd-rT-0K0"; */
+"6Rd-rT-0K0.text" = "Label";
+
+/* Class = "UILabel"; text = "Choose source of your photo"; ObjectID = "IJN-uH-HTy"; */
+"IJN-uH-HTy.text" = "Choose source of your photo";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Pol-3L-os8"; */
+"Pol-3L-os8.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Camera Roll"; ObjectID = "T9N-u2-fa3"; */
+"T9N-u2-fa3.normalTitle" = "Camera Roll";
+
+/* Class = "UIButton"; normalTitle = "Take Photo"; ObjectID = "jaL-oj-j5L"; */
+"jaL-oj-j5L.normalTitle" = "Take Photo";
+
+/* Class = "UIButton"; normalTitle = "Recognize Emotions"; ObjectID = "slQ-NV-PQr"; */
+"slQ-NV-PQr.normalTitle" = "Recognize Emotions";

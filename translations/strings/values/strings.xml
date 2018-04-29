@@ -1,0 +1,17 @@
+<resources>
+    <string name="try_again">Try Again!</string>
+    <string name="anger">Anger</string>
+    <string name="surprise">Surprise</string>
+    <string name="fear">Fear</string>
+    <string name="disgust">Disgust</string>
+    <string name="happiness">Happiness</string>
+    <string name="neutral">Neutral</string>
+    <string name="sadness">Sadness</string>
+    <string name="choose_photo_source">Choose source of your photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="camera_roll">Camera Roll</string>
+    <string name="start">Start</string>
+    <string name="error_title">Ups ...</string>
+    <string name="error_message">I had problem with face detection for uploaded photo.</string>
+    <string name="ok">Try again!</string>
+</resources>

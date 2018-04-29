@@ -1,0 +1,17 @@
+<resources>
+    <string name="try_again">Spróbuj ponownie!</string>
+    <string name="anger">Gniew</string>
+    <string name="surprise">Zaskoczenie</string>
+    <string name="fear">Strach</string>
+    <string name="disgust">Niesmak</string>
+    <string name="happiness">Szczeście</string>
+    <string name="neutral">Obojętność</string>
+    <string name="sadness">Smutek</string>
+    <string name="choose_photo_source">Wybierz skąd chcesz załączyć zdjęcie</string>
+    <string name="take_photo">Zrób zdjęcie</string>
+    <string name="camera_roll">Rolka z aparatu</string>
+    <string name="start">Start</string>
+    <string name="error_title">Ups ...</string>
+    <string name="error_message">Miałem problem z wykryciem twarzy w załączonym zdjęciu.</string>
+    <string name="ok">Spróbój jeszcze raz!</string>
+</resources>

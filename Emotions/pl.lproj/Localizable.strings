@@ -1,0 +1,15 @@
+"try_again" = "Spróbuj ponownie!";
+"anger" = "Gniew";
+"surprise" = "Zaskoczenie";
+"fear" = "Strach";
+"disgust" = "Niesmak";
+"happiness" = "Szczeście";
+"neutral" = "Obojętność";
+"sadness" = "Smutek";
+"choose_photo_source" = "Wybierz skąd chcesz załączyć zdjęcie";
+"take_photo" = "Zrób zdjęcie";
+"camera_roll" = "Rolka z aparatu";
+"start" = "Start";
+"error_title" = "Ups ...";
+"error_message" = "Miałem problem z wykryciem twarzy w załączonym zdjęciu.";
+"ok" = "Spróbój jeszcze raz!";

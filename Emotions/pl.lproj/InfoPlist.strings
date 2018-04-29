@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Zrób zdjęcie twarzy, aby sprawdzić emocje. 📸";
+NSPhotoLibraryAddUsageDescription = "Wyberz zdjecie z biblioteki, aby sprawdzić emocje kryjące się na twarzy. 👵🏻";

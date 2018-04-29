@@ -1,0 +1,2 @@
+NSCameraUsageDescription = "Take photo of the face and check face emotions. 📸";
+NSPhotoLibraryAddUsageDescription = "Choose photo from your library and check face emotions. 👵🏻";

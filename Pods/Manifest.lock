@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.7.0)
+  - SwiftLint (0.25.0)
+  - Swinject (2.2.0)
+  - SwinjectAutoregistration (2.1.1):
+    - Swinject (~> 2.1)
+  - SwinjectStoryboard (1.1.2):
+    - Swinject (~> 2.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - SwiftLint
+  - Swinject
+  - SwinjectAutoregistration
+  - SwinjectStoryboard
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - SwiftLint
+    - Swinject
+    - SwinjectAutoregistration
+    - SwinjectStoryboard
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
+  Swinject: 4ca48bca7de5f398229a26abe1ac902b9f3ee541
+  SwinjectAutoregistration: d06b56bd8f912b9fb9c59c15181342558a734b1b
+  SwinjectStoryboard: 92e75763c3299cdf627bef98a5180dc894864336
+
+PODFILE CHECKSUM: a5da3051962038aa18243856b4a8291686baad9a
+
+COCOAPODS: 1.5.0
