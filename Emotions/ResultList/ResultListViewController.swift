@@ -2,11 +2,11 @@ import UIKit
 
 final class ResultListViewController: UIViewController {
     
-    // MARK: Injected
+    // MARK: - Injected
     
     var dataSource: ResultListSataSource?
     
-    // MARK: Outlets
+    // MARK: - Outlets
     
     @IBOutlet private var tableView: UITableView! {
         didSet {

@@ -34,7 +34,7 @@ final class ResultListSataSource: NSObject, UITableViewDataSource {
         self.emotions = emotions
     }
     
-    // MARK: Table View Data Source
+    // MARK: - Table View Data Source
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return emotions?.count ?? 0

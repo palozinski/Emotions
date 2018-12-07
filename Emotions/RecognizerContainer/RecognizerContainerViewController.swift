@@ -3,17 +3,17 @@ import UIKit
 final class RecognizerContainerViewController: UIViewController,
                                                PhotoPickingViewControllerDelegate {
     
-    // MARK: Injected
+    // MARK: - Injected
     
     var viewModel: EmotionsRecognizerContainerViewModel?
     
-    // MARK: Outlets
+    // MARK: - Outlets
     
     @IBOutlet private var scrollView: UIScrollView!
     @IBOutlet private var primaryButton: LocalizedButton!
     @IBOutlet private var faceImageView: UIImageView!
     
-    // MARK: Liecycle
+    // MARK: - Liecycle
     
     @IBAction func primaryButtonActions(_ sender: UIButton) {
         switch sender.titleLabel?.text {
@@ -59,10 +59,10 @@ final class RecognizerContainerViewController: UIViewController,
             self.cleanView()
         }
         alert.addAction(action)
-        present(alert, animated: true, completion: nil)
+        present(alert, animated: true)
     }
     
-    // Photo Picking View Controller Delegate
+    // Photo: - Picking View Controller Delegate
     
     func didFinishPicking(with image: UIImage) {
         faceImageView.image = image

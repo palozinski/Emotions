@@ -10,13 +10,7 @@ final class PhotoPickingViewController: UIViewController,
     
     weak var delegate: PhotoPickingViewControllerDelegate?
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        // Do any additional setup after loading the view.
-    }
-    
-    // MARK: Actions
+    // MARK: - Actions
     
     @IBAction func takePhotoFromCameraRoll(_ sender: LocalizedButton) {
         takePhoto(fromSource: .photoLibrary)
@@ -26,7 +20,7 @@ final class PhotoPickingViewController: UIViewController,
         takePhoto(fromSource: .camera)
     }
     
-    // MARK: Image picker Controller Delegate
+    // MARK: - Image picker Controller Delegate
     
     func imagePickerController(_ picker: UIImagePickerController,
                                didFinishPickingMediaWithInfo info: [String: Any]) {
@@ -35,7 +29,7 @@ final class PhotoPickingViewController: UIViewController,
             return
         }
         delegate?.didFinishPicking(with: image)
-        dismiss(animated: true, completion: nil)
+        dismiss(animated: true)
     }
     
     private func takePhoto(fromSource source: UIImagePickerControllerSourceType) {
@@ -43,7 +37,7 @@ final class PhotoPickingViewController: UIViewController,
             let imagePicker = UIImagePickerController()
             imagePicker.delegate = self
             imagePicker.sourceType = source
-            present(imagePicker, animated: true, completion: nil)
+            present(imagePicker, animated: true)
         }
     }
 }
